@@ -1,0 +1,137 @@
+.wrapper {
+    height: 100vh;
+    width: 93%;
+    background: url('../imgs/coffee2.jpg');
+    margin-left: 7%
+}
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 50px 0 0 50px;
+}
+
+.logo a{
+    font-size: 40px;
+    line-height: 30px;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 900;
+    
+}
+.navbar {
+    width: 480px;
+    margin: 50px 50px 0 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.navbar ul li a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px; /*вирівнює по центру */
+
+    /* щоб вирівняти текст вертикально по центру, також можна викорстати
+    align-items: center;
+    justify-content: center;
+    але ці властивості діятимуть тільки при display: flex; */
+}
+
+.order {
+    margin: 500px auto 0;
+    width: fit-content;
+    -webkit-box-shadow: 0px 100px 53px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 100px 53px 3px rgba(0,0,0,1);
+    box-shadow: 0px 100px 53px 3px rgba(0,0,0,1);
+}
+
+.order button {
+     width: 300px;
+     height: 60px;
+     border-radius: 30px;
+     background-color: #fff;
+     color: #000000;
+     font-family: "Montserrat";
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 18px;
+     border: none;
+}
+
+.order button:hover {
+  
+    background-color: #000000;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+}
+
+.sidebar {
+    width: 7%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar p {
+    transform: rotate(-90deg);
+    width: 1210px;
+    margin-left: -550px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-top: 30px;
+    
+}
+
+.rewiew img {
+    width: 50px;
+    padding: 30px;
+}
+
+@media (max-width: 800px) {
+    .sidebar{
+        display: none;
+    }
+
+    .wrapper {
+        margin: 0;
+        width: 100vh;
+        background: url('../imgs/device800.jpg');
+    }
+
+    .order {
+        margin: 500px auto 0;
+        width: fit-content;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+}
