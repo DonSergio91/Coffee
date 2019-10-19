@@ -101,13 +101,18 @@
     justify-content: space-between;
 }
 
+.insta img {
+    width: 50px;
+    padding: 40px 30px 30px 30px;
+}
+
 .sidebar p {
     transform: rotate(-90deg);
-    width: 1210px;
-    margin-left: -550px;
+    width: 500px;
+    margin-left: -200px;
     font-weight: 700;
     font-family: "Montserrat";
-    margin-top: 30px;
+    text-align: center;
     
 }
 
