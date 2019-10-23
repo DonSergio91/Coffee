@@ -158,10 +158,34 @@ h2 {
     padding: 0px;
 }
 
+.weare {
+    background: #3D3D45;
+}
 
+.products .container div {
+    height: auto;
+}
 
+.products .container img {
+    height: 300px;
+    width: auto;
+}
 
+.worktext{
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 20px;
+    
+}
 
+.wrapper .worktext p, h2 {
+    line-height: 30px;
+    color: #fff;
+    text-align: justify;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
 
 
 @media (max-width: 800px) {
@@ -194,8 +218,6 @@ h2 {
         text-decoration: none;
         
     }
-
-
 
     .sidebar{
         display: none;
@@ -243,5 +265,17 @@ h2 {
         font-family: "Montserrat";
     }
     
-
+    .worktext{
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 20px;
+        -webkit-box-shadow: inset 0px 0px 40px 0px rgba(153,180,204,1);
+        -moz-box-shadow: inset 0px 0px 40px 0px rgba(153,180,204,1);
+        box-shadow: inset 0px 0px 40px 0px rgba(153,180,204,1);
+    }
+    
+    .wrapper .worktext p, h2 {
+        color: #3D3D45;
+    }
 }   
