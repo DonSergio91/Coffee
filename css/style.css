@@ -186,7 +186,9 @@ h2 {
     font-family: "Montserrat";
     text-align: center;
 }
-
+ .wrapper .map iframe {
+     margin-left: 50px;
+ }
 
 @media (max-width: 800px) {
     body {
@@ -277,5 +279,10 @@ h2 {
     
     .wrapper .worktext p, h2 {
         color: #3D3D45;
+    }
+
+    .wrapper .map iframe {
+        margin-top: 20px;
+        margin-left: 100px;
     }
 }   
