@@ -1,9 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
 .wrapper {
     height: 100vh;
     width: 93%;
     background: url('../imgs/coffee2.jpg');
-    margin-left: 7%
+    background-repeat: no repeat;
+    background-size: cover;
+    margin-left: 7%;
+    padding: 10px;
 }
+
 .header {
     height: 140px;
     display: flex;
@@ -21,7 +29,7 @@
     font-family: "Montserrat";
     font-weight: 900;
     text-decoration: none;
-    
+    padding: 10px;
 }
 .navbar {
     width: 480px;
